@@ -1,1 +1,35 @@
 // Specific CSS for your home-page
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.banner--content{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+
+} h1 {
+  color: white;
+  min-height: 60px;
+  font-size:  50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.banner--content h5 {
+  font-size: 15px;
+  font-weight: lighter;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+
